@@ -67,12 +67,13 @@ ul {
 }
 .leftside h1 {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 10px;
+  color:var(--greycolor);
 }
 .leftside p {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   width: 470px;
   margin-bottom: 20px;
 }
@@ -148,7 +149,8 @@ ul {
 /* About section */
 .readparent-div {
   display: flex;
-  padding: 195px 0px;
+padding-top: 195px;
+padding-bottom: 80px;
   margin-left: 50px;
 
   gap: 20px;
@@ -207,9 +209,11 @@ ul {
 .counting {
   display: flex;
   justify-content: space-between;
-  padding: 80px;
+     padding-left: 12%;
+    padding-right: 12%;
   font-size: 20px;
   text-align: center;
+  margin:70px 0px ;
 }
 .counting h1 {
   color: var(--greencolor);
@@ -223,7 +227,7 @@ ul {
 #about-service {
   padding: 100px 0px;
   margin-top: 50px;
-  background-color: #f4f3f3;
+  background-color: #f4f3f39e;
 }
 .icon-box .icon1:hover {
   border: 1px solid darkgreen;
@@ -233,6 +237,7 @@ ul {
   text-align: center;
   font-size: 40px;
   color: var(--greycolor);
+      font-weight: 500;
 }
 .servicep {
   text-align: center;
@@ -279,19 +284,23 @@ ul {
 
 /* styling of portfolio section */
 .pname {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  color: var(--greycolor);
+      text-align: center;
+    margin-top: 100px;
+    margin-bottom: 26px;
+    color: var(--greycolor);
+    font-size: 36px;
+    font-weight: 500;
 }
 .para {
   text-align: center;
 }
 .pbar {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .portfolio-parent {
@@ -354,7 +363,7 @@ ul {
 .tparent-div {
   /* background-color:#f9f9f9; */
   margin-top: 80px;
-  margin-left: 70px;
+  margin-left: 25px;
 }
 
 .tname {
@@ -472,7 +481,7 @@ ul {
 }
 
 .teampic {
-  width: 410px;
+  width: 370px;
   position: relative;
 }
 .thover-box {
@@ -612,7 +621,7 @@ ul {
 }
 .fbox {
   padding: 15px;
-  width: 300px;
+  width: 267px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -710,6 +719,7 @@ ul {
   color: var(--greycolor);
   margin-bottom: 15px;
 }
+
 .city p {
   font-size: 15px;
   font-weight: 300;
@@ -723,7 +733,7 @@ ul {
 
 .second-div {
   width: 139px;
-  margin-left: 17%;
+  margin-left: 12%;
 }
 .mh {
   font-size: 19px;
